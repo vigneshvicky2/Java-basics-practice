@@ -1,5 +1,6 @@
 public class Butterfly_pattern {
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
       int n = 5;
     
       for(int i = 0 ; i < n-1 ; i++){
@@ -27,5 +28,8 @@ public class Butterfly_pattern {
         }
         System.out.println();
       } 
+      long endTime = System.nanoTime();
+        long duration = (endTime - startTime) / 1_000_000; 
+        System.out.println("Runtime: " + duration + " ms");
     }
 }
