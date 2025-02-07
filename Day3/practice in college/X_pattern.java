@@ -7,7 +7,8 @@ public class X_pattern {
                 
                 if (j == i || j == n - i + 1) {
                     System.out.print("*");
-                } else {
+                    } 
+                else {
                     System.out.print(" ");
                 }
             }

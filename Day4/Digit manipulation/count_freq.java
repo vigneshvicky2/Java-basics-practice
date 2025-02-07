@@ -14,7 +14,7 @@ public class count_freq {
         if(count!=0){
           System.out.println(i + " : " + count);
         }
-        count =0;
+        //count =0;
       }
 
     } 

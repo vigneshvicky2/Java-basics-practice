@@ -20,13 +20,16 @@ public class product_of_num_except_it_self {
         for (int i = 0; i < n; i++) {
             if (zeroCount > 1) {
                 ans[i] = 0; // More than one zero, all elements in arr2 should be 0
-            } else if (zeroCount == 1) {
+            } 
+            else if (zeroCount == 1) {
                 if (nums[i] == 0) {
                     ans[i] = pro;
-                } else {
+                } 
+                else {
                     ans[i] = 0;
                 }       // If exactly one zero then only its position gets the product
-            } else {
+            } 
+            else {
                 ans[i] = pro / nums[i]; // No zeroes then divide the total product
             }
         }

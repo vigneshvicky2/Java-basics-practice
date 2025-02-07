@@ -5,7 +5,7 @@ public class PrimeNumber {
         boolean check=true;
         Scanner obj = new Scanner(System.in);
         int n = obj.nextInt();
-        for (int i =2 ; i < n ; i++){
+        for (int i =2 ; i < Math.sqrt(n) ; i++){
             if(n%i==0) {
                 check=!check;
                 System.out.println("Not prime");

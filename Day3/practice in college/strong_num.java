@@ -8,7 +8,12 @@ public class strong_num {
         for(char let:num.toCharArray()){
             ans += fact(let -'0');
         } 
-        System.out.println("The ans is " +ans);
+        if(ans==Integer.parseInt(num)){
+            System.out.println("Strong number");
+        }
+        else{
+            System.out.println("Not a strong number");
+        }
     }
     
     public static int fact(int n) {

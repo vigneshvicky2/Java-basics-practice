@@ -6,7 +6,7 @@ public class num_extract{
 
         // extract from left (reduce number from last)
         int n1 = 12345;
-        System.out.println(n/10);
+        System.out.println(n/10000);
 
     }
 }

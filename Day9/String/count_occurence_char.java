@@ -12,7 +12,7 @@ public class count_occurence_char {
                 a.charAt(left);
                 left++;
             }
-        } catch (Exception IndexOutOfBouException) {
+        } catch (Exception IndexOutOfBoundsException) {
             System.out.println(left);
         }
         
